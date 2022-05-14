@@ -1,0 +1,46 @@
+
+.move-area{/*normally use body*/
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top:30vh;
+
+    
+  }
+
+  .eye1{/*normally use body*/
+    position: relative;
+    top:21vh;
+    left:-5.6vw;
+    
+  }
+
+  .eye2{/*normally use body*/
+    position: relative;
+    top:21vh;
+    left:-2.2vw;
+    
+  }
+  .container {
+    width: 100%;
+   
+  }
+
+  .eye {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background: #CCC;
+  }
+  .eye:after { /*pupil*/
+    position: absolute;
+    bottom: 17px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 50%;
+    content: " ";
+  }
