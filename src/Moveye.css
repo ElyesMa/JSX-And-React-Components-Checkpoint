@@ -1,3 +1,7 @@
+@media screen and (min-width: 0px) and (max-width: 1400px) {
+  #myPortfolio { height: 100px; }  
+}
+
 
 .move-area{/*normally use body*/
     width: 100vw;
@@ -10,15 +14,15 @@
 
   .eye1{/*normally use body*/
     position: relative;
-    top:21vh;
-    left:-5.6vw;
+    top:18.9vh;
+    left:-6.1vw;
     
   }
 
   .eye2{/*normally use body*/
     position: relative;
-    top:21vh;
-    left:-2.2vw;
+    top:18.6vh;
+    left:-2.1vw;
     
   }
   .container {

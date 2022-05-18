@@ -1,5 +1,7 @@
 import './Moveye.css';  
 import $ from 'jquery';
+import mousemove from 'jquery';
+
 $(".move-area").mousemove(function(event) {
     var eye = $(".eye");
     console.log('eye', eye)
