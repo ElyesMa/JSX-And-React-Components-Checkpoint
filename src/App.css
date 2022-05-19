@@ -5,7 +5,8 @@
   background-size: 100%;
 }
 
-
+.myPortfolio {
 @media screen and (min-width: 0px) and (max-width: 1400px) {
-  #myPortfolio { height: 100px; }  
+  .img { height: 100px; }  
+}
 }

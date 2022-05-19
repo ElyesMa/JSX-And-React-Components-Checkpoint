@@ -1,8 +1,3 @@
-@media screen and (min-width: 0px) and (max-width: 1400px) {
-  #myPortfolio { height: 100px; }  
-}
-
-
 .move-area{/*normally use body*/
     width: 100vw;
     height: 100vh;
@@ -48,3 +43,39 @@
     border-radius: 50%;
     content: " ";
   }
+  .Portfolio{
+    position: absolute;
+    top:-15vh;
+    left:31vw;
+    height:740px;
+  }
+  
+  @media screen and (max-width: 1400px) {
+    .Portfolio{
+      position: absolute;
+      top:-15vh;
+      left:31vw;
+      height:500px;
+    }
+    .eye {
+      width: 20px;
+      height: 20px;
+      
+    }
+    
+  .eye1{/*normally use body*/
+    top:21.9vh;
+    left:-6.1vw;
+    
+  }
+
+  .eye2{/*normally use body*/
+    top:21.6vh;
+    left:-2.1vw;
+    
+  }
+  .Texte{
+    font-size: 10px;
+  }
+    }
+  
