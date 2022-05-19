@@ -2,6 +2,7 @@ import './Moveye.css';
 import $ from 'jquery';
 import mousemove from 'jquery';
 
+$(document).ready(function(){ 
 $(".move-area").mousemove(function(event) {
     var eye = $(".eye");
     console.log('eye', eye)
@@ -15,4 +16,4 @@ $(".move-area").mousemove(function(event) {
       '-ms-transform': 'rotate(' + rot + 'deg)',
       'transform': 'rotate(' + rot + 'deg)'
     });
-  });
+  })});
