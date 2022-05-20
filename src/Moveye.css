@@ -43,19 +43,55 @@
     border-radius: 50%;
     content: " ";
   }
+
+  h4{
+    position: relative;
+    top:-60vh ; 
+    left:31vw ;
+    color: white;
+    font-style:italic;
+    font-size: 30px;
+  }
+  h1{
+    position: relative;
+    top:-66vh ; 
+    left:31vw ;
+    color: white;
+    font-style:italic;
+    font-size: 60px;
+  }
+  p{
+    position: relative;
+    width:700;
+    top:-71vh ; 
+    left:31vw ;
+    color: white;
+    font-style:italic;
+    font-size: 20px;
+  }
   .Portfolio{
     position: absolute;
     top:-15vh;
     left:31vw;
     height:740px;
   }
-  
+
+  #Logo5{
+    position: absolute;
+    font-size:110px;
+    font-Family:Arial;
+    font-Weight:800;
+    font-Style:normal;
+    top:30vh;
+    left:6.9vw;
+    color:black;
+  }
   @media screen and (max-width: 1400px) {
     .Portfolio{
       position: absolute;
       top:-15vh;
       left:31vw;
-      height:500px;
+      height:530px;
     }
     .eye {
       width: 20px;
@@ -64,18 +100,170 @@
     }
     
   .eye1{/*normally use body*/
-    top:21.9vh;
+    top:20.9vh;
     left:-6.1vw;
     
   }
 
   .eye2{/*normally use body*/
-    top:21.6vh;
+    top:20.6vh;
     left:-2.1vw;
     
   }
-  .Texte{
-    font-size: 10px;
+  h4{
+    top:-60vh ; 
+    left:31vw ;
+    font-size: 20px;
   }
+  h1{
+    top:-66vh ; 
+    left:31vw ;
+    font-size: 40px;
+  }
+  p{
+    width:700;
+    top:-71vh ; 
+    left:31vw ;
+    font-size: 14px;
+  }
+  #Logo5{
+    font-size:85px;
+  }
+  }
+
+  @media screen and (max-width: 1679px) and (min-width: 1410px)  {
+    .Portfolio{
+      position: absolute;
+      top:-15vh;
+      left:31vw;
+      height:620px;
     }
-  
+    .eye {
+      width: 25px;
+      height: 25px;
+      
+    }
+    
+  .eye1{/*normally use body*/
+    top:19.9vh;
+    left:-6.1vw;
+    
+  }
+
+  .eye2{/*normally use body*/
+    top:19.6vh;
+    left:-2.1vw;
+    
+  }
+  h4{
+    top:-60vh ; 
+    left:31vw ;
+    font-size: 30px;
+  }
+  h1{
+    top:-66vh ; 
+    left:31vw ;
+    font-size: 50px;
+  }
+  p{
+    width:700;
+    top:-71vh ; 
+    left:31vw ;
+    font-size: 18px;
+  }
+  #Logo5{
+    font-size:95px;
+  }
+  }
+
+  @media screen and (max-width: 1919px) and (min-width: 1680px)  {
+    .Portfolio{
+      position: absolute;
+      top:-15vh;
+      left:31vw;
+      height:635px;
+    }
+    .eye {
+      width: 25px;
+      height: 25px;
+      
+    }
+    
+  .eye1{/*normally use body*/
+    top:14.9vh;
+    left:-6.1vw;
+    
+  }
+
+  .eye2{/*normally use body*/
+    top:14.9vh;
+    left:-2.1vw;
+    
+  }
+  h4{
+    top:-60vh ; 
+    left:31vw ;
+    font-size: 30px;
+  }
+  h1{
+    top:-66vh ; 
+    left:31vw ;
+    font-size: 50px;
+  }
+  p{
+    width:700;
+    top:-71vh ; 
+    left:31vw ;
+    font-size: 18px;
+  }
+  #Logo5{
+    font-size:90px;
+    top:28.5vh ; 
+  }
+  }
+
+  @media screen and (max-width: 1359px) and (min-width: 1000px)  {
+    .Portfolio{
+      position: absolute;
+      top:-15vh;
+      left:31vw;
+      height:455px;
+    }
+    .eye {
+      width: 25px;
+      height: 25px;
+      
+    }
+    
+  .eye1{/*normally use body*/
+    top:6.5vh;
+    left:-7.1vw;
+    
+  }
+
+  .eye2{/*normally use body*/
+    top:6.5vh;
+    left:-3.9vw;
+    
+  }
+  h4{
+    top:-70vh ; 
+    left:31vw ;
+    font-size: 20px;
+  }
+  h1{
+    top:-73vh ; 
+    left:31vw ;
+    font-size: 40px;
+  }
+  p{
+    width:700;
+    top:-77vh ; 
+    left:31vw ;
+    font-size: 14px;
+  }
+  #Logo5{
+    font-size:80px;
+    top:20vh ; 
+  }
+  }

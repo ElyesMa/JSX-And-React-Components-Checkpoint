@@ -13,7 +13,7 @@ function Logo() {
         <img id="Logo2" src={Logo2} alt=""></img>
         <img id="Logo3" src={Logo3} alt=""></img>
         <img id="Logo4" src={Logo4} alt=""></img>
-        <h1 style={{position: "absolute",fontSize:110,fontFamily:"Arial",fontWeight:"800",top:"30vh" , left:"6.9vw" ,color:"black"}}> G</h1>
+        <h1 id="Logo5"> G</h1>
 
         
     </div> 
